@@ -13,7 +13,7 @@ class ServidorModelo {
     constructor() {
 
         this.app = express()
-        //this.despetarBD()
+        this.despetarBD()
         this.llamarAuxiliares()
         this.enrutarPeticiones()
 
